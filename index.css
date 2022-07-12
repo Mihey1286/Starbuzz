@@ -1,0 +1,78 @@
+body	{
+	background-image: url(images/background.gif);
+	}
+
+header	{
+	background-color: #3a2113;
+	margin: 10px;
+	}
+
+#slogan	{
+	float: right;
+	}
+
+nav	{
+	background-color: #6f4e37;
+	margin: 10px 10px 0px 10px;
+	
+	}
+
+nav ul	{
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+	}
+
+nav ul li	{
+		display: inline;
+		padding: 5px 10px 5px 10px;
+		}
+
+nav ul li a:link, nav ul li a:visited	{
+					color: maroon;
+					text-decoration: none;
+					font-weight: bold;
+					}
+
+.selected	{
+		background-color: #777;
+		padding: 5px 0px 5px 0px;
+		}
+
+
+
+#tableContainer	{
+		
+		display: table;
+		border-spacing: 10px;
+		font-family: 'Lobster', cursive;
+		}
+
+#tableRow	{
+		display: table-row;
+		}
+
+.menu		{
+		background-image: url(images/background2.gif);
+		display: table-cell;
+		vertical-align: top;
+		padding: 10px;
+		}
+
+section		{
+		background-image: url(images/background2.gif);
+		display: table-cell;
+		vertical-align: top;
+		padding: 10px;
+		}
+
+aside		{
+		background-image: url(images/background2.gif);
+		display: table-cell;
+		vertical-align: top;
+		padding: 10px;
+		}
+
+video	{
+	margin: 0px 0px 10px 10px;
+	}
